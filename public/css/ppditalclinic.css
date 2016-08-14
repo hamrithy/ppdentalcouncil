@@ -1,0 +1,378 @@
+/*!
+ * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    font-family: Khmer sn campot;
+    background: url('../image/Phnom.Penh.original.3054.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 720px;
+    border-color: #5762a5;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+    background: aliceblue;
+    margin-top: -0.9px;
+    height: 50px;
+	padding:20px;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+    background: aliceblue;
+    margin-top: -1.2%;
+
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+	background:aliceblue;
+    border-color: #17151b;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+	height:auto;
+    /*background: #fff;
+    background: rgba(255,255,255,0.9);*/
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+       /* text-shadow: 1px 1px 2px rgba(0,0,0,0.5);*/
+        font-family: Khmer OS Muol;
+        font-size: 2.9em;
+        font-weight: 700;
+        line-height: normal;
+        color: aliceblue;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: -20px;
+        padding: 0 0 40px;
+        text-align: center;
+        /*text-shadow: 1px 1px 2px rgba(0,0,0,0.5);*/
+        text-transform: uppercase;
+        font-size: 1.80em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: aliceblue;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #5762a5;
+    }
+
+    .nav>li>a {
+        padding: 10px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+		border-left: 1px solid none; 
+		border-right: 2px solid red; 
+		
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+		font-family:khmer os muol;
+		font-weight:bold;
+		
+	
+    }
+	
+
+#navmenu{
+width:auto;
+
+}
+#navmenu ul{
+margin: 0;
+ padding: 0;
+ line-height: 40px;	
+}
+#navmenu li{
+margin: 0;
+padding: 0 ;
+list-style: none;
+float: left;
+position: relative;
+font-family:khmer os nirath;
+background: #FFF;
+width: 115px;
+height: 40px;
+ font-weight: bold;
+
+}
+#navmenu ul li a{
+text-decoration: none;
+text-align: center;
+font-size:18px;
+display: block;
+color: blue;
+border-left: 1px solid none; 
+border-right: 2px solid #5762A7; 
+border-top: 1px solid none; 
+border-bottom: 1px solid none;	
+text-shadow:1px 1px none;
+}
+#navmenu ul li a:hover{
+	/*background: rgba(192,192,192,0.3);*/
+	}
+	
+	
+	#navmenu ul ul
+{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	font-size:10px;
+	background:gray;
+	padding:0
+}
+
+#navmenu ul ul li
+{
+	float:none;
+	width:250px;
+}
+
+#navmenu ul ul a
+{
+	line-height:120%;
+	font-size:14px;
+	font-family:khmer os nirath;
+	padding:12px 0px;	
+
+}
+
+#navmenu ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#navmenu ul li:hover > ul
+{
+
+	display:block
+}
+	
+
+#navmenu ul ul{
+position: relative;
+visibility: hidden;
+top: 0px;	
+display: block;
+}
+#navmenu ul li ul li{
+	width:198px;
+	font-size:10px;
+	
+}
+#navmenu ul li:hover ul{
+visibility: visible;
+    z-index: 1;
+}
+#navmenu li:hover{
+background: none;	
+}
+#navmenu ul li:hover ul li a:hover{
+background: #FFF;	
+}
+#navmenu a:hover {
+	color: black;
+}
+#navmenu li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+#navmenu li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                       }
+#navmenu li ul li {
+	background-color: aliceblue;
+	
+	} 
+ #navmenu li ul li a 	{
+	 
+		border-left: 1px solid #5762a5; 
+		border-right: 1px solid #5762a5; 
+		border-top: 1px solid #5762a5; 
+		border-bottom: 1px solid #5762a5; 
+		}
+				
+#navmenu li ul li a:hover	{background-color: #366b82;}
+
+.clearfloat{
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+/* html code clear 
+*/
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}

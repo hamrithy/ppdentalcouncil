@@ -1,0 +1,18 @@
+.td-action{
+    display: flex;
+    align-items: baseline;
+}
+
+.editor{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.editor .editor-wrap{
+    flex: 1;
+}
+
+.editor aside{
+    width: 300px;
+    margin-left: 10px;
+}
